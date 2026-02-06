@@ -7,6 +7,20 @@ interface Developer {
 }
 
 const developers: Developer[] = [
+{
+    foto: "img/ricky.jpeg",
+    nama: "Ricky Alif Pratama",
+    role: "-",
+    linkedin: "#",
+    instagram: "#"
+  },
+{
+    foto: "img/rizki.png",
+    nama: "Rizki (Prabowo) Romadona",
+    role: "-",
+    linkedin: "https://www.linkedin.com/in/rizki-romadona-568287338/",
+    instagram: "#"
+  },
   {
     foto: "img/hambali.jpeg",
     nama: "Hambali Fitrianto",
@@ -15,17 +29,24 @@ const developers: Developer[] = [
     instagram: "https://www.instagram.com/capt_msf/"
   },
   {
-    foto: "img/rizki.png",
-    nama: "Rizki (Prabowo) Romadona",
-    role: "-",
-    linkedin: "#",
-    instagram: "#"
-  },
-  {
     foto: "img/sigit.png",
     nama: "Sigit Wicaksono",
     role: "-",
-    linkedin: "#",
+    linkedin: "https://www.linkedin.com/in/sigit-wicaksono-97b4b2215/",
+    instagram: "https://www.instagram.com/sigit3670/"
+  },
+  {
+    foto: "img/ahmad.jpeg",
+    nama: "Ahmad Ridho Mulia",
+    role: "-",
+    linkedin: "https://www.linkedin.com/in/ahmad-ridho-mulia-401274343/",
+    instagram: "#"
+  },
+  {
+    foto: "img/arya.jpeg",
+    nama: "Arya Prayogi Utama",
+    role: "-",
+    linkedin: "https://www.linkedin.com/in/aryaprayogiutama1/",
     instagram: "#"
   }
 ];
