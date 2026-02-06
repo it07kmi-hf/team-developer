@@ -9,7 +9,6 @@
 <title>Tim Developer – Pawindo Group</title>
 
 <style>
-/* Background tetap cakep tapi gak silau */
 body {
   background:
   radial-gradient(at 0% 0%, #1e40af 0px, transparent 50%),
@@ -17,14 +16,23 @@ body {
   radial-gradient(at 50% 100%, #0f172a 0px, transparent 50%);
 }
 
-/* GLASS TAPI LEBIH SOLID BIAR KEBACA */
+/* CARD UTAMA */
 .glass {
-  background: rgba(17, 24, 39, 0.82);      /* lebih gelap */
-  backdrop-filter: blur(6px);             /* blur dikurangin */
+  background: rgba(17, 24, 39, 0.88);
+  backdrop-filter: blur(6px);
   border: 1px solid rgba(255,255,255,.18);
+  transition: all .3s ease;
 }
 
-/* ANIMASI HALUS */
+/* HOVER EFFECT YANG KAMU MAU 🔥 */
+.glass:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(0,0,0,.4),
+              0 0 20px rgba(99,102,241,.4);
+  border: 1px solid rgba(255,255,255,.35);
+}
+
+/* ANIMASI MUNCUL */
 .card-anim {
   opacity: 0;
   animation: muncul .7s ease forwards;
@@ -48,7 +56,6 @@ body {
 
 <div class="flex-1">
 
-<!-- HERO -->
 <section class="text-center py-14">
   <h1 class="text-4xl md:text-5xl font-bold tracking-wide text-white">
     Tim Developer Pawindo Group
@@ -60,7 +67,6 @@ body {
   </p>
 </section>
 
-<!-- LIST -->
 <div id="app" class="
   max-w-6xl mx-auto p-6
   grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7
@@ -68,11 +74,10 @@ body {
 
 </div>
 
-<!-- FOOTER -->
 <footer class="text-center text-slate-200 p-6">
   © 2026 Pawindo Group – Developed By
   <span class="font-semibold text-cyan-300 hover:text-cyan-400 transition">
-    Ibal Bojay
+    Hambali Fitrianto
   </span>
 </footer>
 
