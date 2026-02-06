@@ -57,7 +57,7 @@ const developers: Developer[] = [
     instagram: "#"
   },
   {
-    foto: "img/jaihan.png",
+    foto: "img/jaihan.jpeg",
     nama: "Jaihan Abidin",
     role: "-",
     linkedin: "https://www.linkedin.com/in/jaihan-abidin-b7a5412a2/",
