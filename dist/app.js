@@ -15,7 +15,7 @@ const developers = [
         instagram: "#"
     },
     {
-        foto: "img/hambali.jpeg",
+        foto: "img/david.jpeg",
         nama: "David Rizaldy",
         role: "-",
         linkedin: "https://www.linkedin.com/in/david-rizaldy-15b4a7218/",
