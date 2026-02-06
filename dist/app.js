@@ -16,6 +16,13 @@ const developers = [
     },
     {
         foto: "img/hambali.jpeg",
+        nama: "David Rizaldy",
+        role: "-",
+        linkedin: "https://www.linkedin.com/in/david-rizaldy-15b4a7218/",
+        instagram: "#"
+    },
+    {
+        foto: "img/hambali.jpeg",
         nama: "Hambali Fitrianto",
         role: "-",
         linkedin: "https://www.linkedin.com/in/hambali-fitrianto/",
