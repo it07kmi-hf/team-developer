@@ -32,20 +32,20 @@ const developers: Developer[] = [
     instagram: "#"
   },
   {
-    foto: "img/hambali.jpeg",
-    nama: "Hambali Fitrianto",
-    // role: "AI Engineer",
-    role: "-",
-    linkedin: "https://www.linkedin.com/in/hambali-fitrianto/",
-    instagram: "https://www.instagram.com/capt_msf/"
-  },
-  {
     foto: "img/sigit.jpeg",
     nama: "Sigit Wicaksono",
     // role: "Professional System Applications and Products in Data Processing",
     role: "-",
     linkedin: "https://www.linkedin.com/in/sigit-wicaksono-97b4b2215/",
     instagram: "https://www.instagram.com/sigit3670/"
+  },
+    {
+    foto: "img/hambali.jpeg",
+    nama: "Hambali Fitrianto",
+    // role: "AI Engineer",
+    role: "-",
+    linkedin: "https://www.linkedin.com/in/hambali-fitrianto/",
+    instagram: "https://www.instagram.com/capt_msf/"
   },
   {
     foto: "img/ahmad.jpeg",
