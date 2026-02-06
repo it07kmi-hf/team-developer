@@ -101,7 +101,7 @@ class="w-28 h-28 rounded-full mx-auto object-cover ring-4 ring-cyan-400/30 curso
 </div>
 
 <p class="text-xs text-slate-300 mt-2">
-  Pawindo Group Technology Division
+  PT. Kayu Mebel Indonesia Technology Division
 </p>
 
 <div class="mt-4 flex gap-5 justify-center">
@@ -129,5 +129,5 @@ document.addEventListener("DOMContentLoaded", () => {
     app.innerHTML += render(d,i);
   });
 
-  document.title = "Tim Developer – Pawindo Group";
+  document.title = "Tim Developer – PT. Kayu Mebel Indonesia";
 });
