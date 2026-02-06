@@ -24,7 +24,7 @@ body {
   transition: all .3s ease;
 }
 
-/* HOVER EFFECT YANG KAMU MAU 🔥 */
+/* HOVER EFFECT */
 .glass:hover {
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 20px 40px rgba(0,0,0,.4),
@@ -47,6 +47,16 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* ANIMASI MODAL */
+.modal-anim {
+  animation: zoom .2s ease;
+}
+
+@keyframes zoom {
+  from { transform: scale(.8); opacity:0 }
+  to   { transform: scale(1); opacity:1 }
 }
 </style>
 
@@ -81,7 +91,49 @@ body {
   </span>
 </footer>
 
+<!-- =================== MODAL FOTO =================== -->
+<div id="photoModal"
+class="fixed inset-0 bg-black/70 backdrop-blur hidden items-center justify-center z-50">
+
+  <div class="relative max-w-lg w-full mx-4 modal-anim">
+
+    <button onclick="closeModal()"
+    class="absolute -top-10 right-0 text-white text-3xl hover:scale-110 transition">
+      ✕
+    </button>
+
+    <img id="modalImg"
+    class="rounded-2xl shadow-2xl w-full border border-white/20">
+
+  </div>
+</div>
+
+<!-- SCRIPT UTAMA -->
 <script src="./dist/app.js"></script>
+
+<!-- SCRIPT MODAL -->
+<script>
+function openModal(src) {
+  const modal = document.getElementById("photoModal");
+  const img = document.getElementById("modalImg");
+
+  img.src = src;
+  modal.classList.remove("hidden");
+  modal.classList.add("flex");
+}
+
+function closeModal() {
+  const modal = document.getElementById("photoModal");
+  modal.classList.add("hidden");
+  modal.classList.remove("flex");
+}
+
+// klik luar modal = close
+document.addEventListener("click", function(e) {
+  const modal = document.getElementById("photoModal");
+  if (e.target === modal) closeModal();
+});
+</script>
 
 </body>
 </html>
