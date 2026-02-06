@@ -55,6 +55,13 @@ const developers: Developer[] = [
     role: "-",
     linkedin: "https://www.linkedin.com/in/moh-agus-safi-i-b86850299/",
     instagram: "#"
+  },
+  {
+    foto: "img/jaihan.png",
+    nama: "Jaihan Abidin",
+    role: "-",
+    linkedin: "https://www.linkedin.com/in/jaihan-abidin-b7a5412a2/",
+    instagram: "#"
   }
 ];
 
