@@ -41,6 +41,13 @@ const developers = [
         role: "-",
         linkedin: "https://www.linkedin.com/in/aryaprayogiutama1/",
         instagram: "#"
+    },
+    {
+        foto: "img/agus.jpeg",
+        nama: "Moh. Agus Safi I",
+        role: "-",
+        linkedin: "https://www.linkedin.com/in/moh-agus-safi-i-b86850299/",
+        instagram: "#"
     }
 ];
 /* LINKEDIN ICON — TETAP PUNYAMU */
