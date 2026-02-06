@@ -22,7 +22,7 @@ const developers = [
         instagram: "https://www.instagram.com/capt_msf/"
     },
     {
-        foto: "img/sigit.png",
+        foto: "img/sigit.jpeg",
         nama: "Sigit Wicaksono",
         role: "-",
         linkedin: "https://www.linkedin.com/in/sigit-wicaksono-97b4b2215/",
