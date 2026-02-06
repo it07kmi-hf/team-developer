@@ -10,63 +10,72 @@ const developers: Developer[] = [
   {
     foto: "img/ricky.jpeg",
     nama: "Ricky Alif Pratama",
-    role: "Development Program",
+    // role: "Development Program",
+    role: "-",
     linkedin: "#",
     instagram: "#"
   },
   {
     foto: "img/rizki.png",
     nama: "Rizki (Prabowo) Romadona",
-    role: "Senior System Administrator",
+    // role: "Senior System Administrator",
+    role: "-",
     linkedin: "https://www.linkedin.com/in/rizki-romadona-568287338/",
     instagram: "#"
   },
   {
     foto: "img/david.jpeg",
     nama: "David Rizaldy",
-    role: "SAP Human Resources Specialist",
+    // role: "SAP Human Resources Specialist",
+    role: "-",
     linkedin: "https://www.linkedin.com/in/david-rizaldy-15b4a7218/",
     instagram: "#"
   },
   {
     foto: "img/hambali.jpeg",
     nama: "Hambali Fitrianto",
-    role: "AI Engineer",
+    // role: "AI Engineer",
+    role: "-",
     linkedin: "https://www.linkedin.com/in/hambali-fitrianto/",
     instagram: "https://www.instagram.com/capt_msf/"
   },
   {
     foto: "img/sigit.jpeg",
     nama: "Sigit Wicaksono",
-    role: "Professional System Applications and Products in Data Processing",
+    // role: "Professional System Applications and Products in Data Processing",
+    role: "-",
     linkedin: "https://www.linkedin.com/in/sigit-wicaksono-97b4b2215/",
     instagram: "https://www.instagram.com/sigit3670/"
   },
   {
     foto: "img/ahmad.jpeg",
     nama: "Ahmad Ridho Mulia",
-    role: "Senior Programmer",
+    // role: "Senior Programmer",
+    role: "-",
     linkedin: "https://www.linkedin.com/in/ahmad-ridho-mulia-401274343/",
     instagram: "#"
   },
   {
     foto: "img/arya.jpeg",
     nama: "Arya Prayogi Utama",
-    role: "IT & ERP",
+    // role: "IT & ERP",
+    role: "-",
     linkedin: "https://www.linkedin.com/in/aryaprayogiutama1/",
     instagram: "#"
   },
   {
     foto: "img/agus.jpeg",
     nama: "Moh. Agus Safi I",
-    role: "Senior Programmer",
+    // role: "Senior Programmer",
+    role: "-",
     linkedin: "https://www.linkedin.com/in/moh-agus-safi-i-b86850299/",
     instagram: "#"
   },
   {
     foto: "img/jaihan.jpeg",
     nama: "Jaihan Abidin",
-    role: "Programmer",
+    // role: "Programmer",
+    role: "-",
     linkedin: "https://www.linkedin.com/in/jaihan-abidin-b7a5412a2/",
     instagram: "#"
   }
