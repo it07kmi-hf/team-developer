@@ -78,6 +78,14 @@ const developers: Developer[] = [
     role: "-",
     linkedin: "https://www.linkedin.com/in/jaihan-abidin-b7a5412a2/",
     instagram: "#"
+  },
+  {
+    foto: "img/kelvin.png",
+    nama: "Kelvin Erlangga Satriagung",
+    // role: "Programmer",
+    role: "-",
+    linkedin: "https://www.linkedin.com/in/kelvinerlangga/",
+    instagram: "#"
   }
 ];
 
